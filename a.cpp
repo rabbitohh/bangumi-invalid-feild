@@ -48,7 +48,7 @@ signed main()
     string s;
     while(getline(cin,s))
     {
-        if(kmp(s,"|开始=")&&(!kmp(s,"|连载杂志=")))
+        if(kmp(s,"|开始=")&&((!kmp(s,"|连载杂志=")||kmp(s,"|连载杂志= \\"))))
         {
             bool flag=0;
             for(int i=6;i<=20;i++)

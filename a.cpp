@@ -68,7 +68,7 @@ signed main()
                     if('0'<=s[i]&&s[i]<='9') cout<<s[i];
                     else break;
                 }
-                cout<<'\n';
+                cout<<"  \n";
             }
         }
     }
